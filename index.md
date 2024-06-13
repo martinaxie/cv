@@ -1,206 +1,93 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: Tingting Xie
 email:
-  url: mailto:nimo@cmu.edu
-  text: nimo@cmu.edu
-homepage:
-  url: https://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: martina_xie@163.com
+  text: martina_xie@163.com
 ---
 
-# Wode **Ni**
+# Tingting **Tse**
 
 <!--
 include contact information from the front matter
 Supported arguments:
-    - homepage: url, text
-    - phone
     - email
 -->
 
 {% include cv-contact.html %}
 
-## Education
+## Self description
 
-### **Carnegie Mellon University** `2018.9 -`
-
-```
-Pittsburgh, PA
-```
-
-- Ph.D. in Software Engineering
-- MS in 2021
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
-
-### **Columbia University** `2016.9 - 2018.5`
-
-```
-New York, NY
-```
-
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
-
-### **Dickinson College** `2013.9 - 2016.5`
-
-```
-Carlisle, PA
-```
-
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
-
-## Publications
-
-### **Codifying Visual Representations**
-**Wode Ni**, Sam Estep, Hwei-Shin Harriman, Jiří Minarčík, and Joshua Sunshine. <br>
-_Under Review._ 
-
-### **Rose: Composable Autodiff for the Interactive Web**
-Sam Estep, **Wode Ni**, Raven Rothkopf, and Joshua Sunshine. <br>
-_arXiv._ <br>
-[[PDF](https://arxiv.org/pdf/2402.17743.pdf)]
-
-### **Edgeworth: Efficient and Scalable Authoring of Visual Thinking Activities**
-**Wode Ni**, Sam Estep, Hwei-Shin Harriman, Ken Koedinger, and Joshua Sunshine. <br>
-_To appear in Proceedings of the 11th ACM Conference on Learning @ Scale (L@S'24)._
-
-### **Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics**
-Jiří Minarčík, Sam Estep, **Wode Ni**, and Keenan Crane. <br>
-_To appear in ACM SIGGRAPH 2024 Conference Proceedings (SIGGRAPH'24)._ <br>
-
-### **Syntactic Code Search with Sequence-to-Tree Matching**
-Gabriel Matute, **Wode Ni**, Titus Barik, Alvin Cheung, and Sarah E. Chasins.<br> 
-_To appear in Proceedings of the ACM on Programming Languages (PLDI'24)._ <br>
-
-### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**]({{ page.homepage.url }}/assets/uist-21-recode.pdf)
-**Wode Ni**, Joshua Sunshine, Vu Le, Sumit Gulwani, and Titus Barik.<br> 
-_In Proceedings of the 34th ACM Symposium on User Interface Software and Technology (UIST'21)._ <br>
-[[PDF]({{ page.homepage.url }}/assets/uist-21-recode.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/uist-21-recode.txt)]
-[[video preview](https://youtu.be/fMdHK9UrgQ4)]
-[[talk](https://youtu.be/_GQ8E7EMMws)]
-
-
-### [**Penrose: From Mathematical Notation to Beautiful Diagrams**](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)
-Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
-_ACM Transactions on Graphics (SIGGRAPH'20)._<br>
-[[PDF](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/siggraph20-penrose.txt)]
-[[www](http://penrose.ink/siggraph20.html)]
-[[repo](https://github.com/penrose/penrose)]
-
-### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)
-
-Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
-<i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
-_In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20)._<br>
-[[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.txt)]
-
-
-### [**Generating Domain-Specific Programs for Diagram Authoring with Large Language Models**](https://wodenimoni.com/assets/splash-23-llm-diagrams.pdf)
-
-Rijul Jain, **Wode Ni**, and Joshua Sunshine.<br>
-_SPLASH 2023: Companion Proceedings of the 2023 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH'23 EA)._<br>
-[[PDF](https://wodenimoni.com/assets/splash-23-llm-diagrams.pdf)]
-
-
-### [**Defining Visual Narratives for Mathematics Declaratively**](http://2019.plateau-workshop.org/assets/papers-2019/9.pdf)
-
-Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://2019.plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
-
-### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://2019.plateau-workshop.org/assets/papers-2019/2.pdf)
-
-Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://2019.plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
-
-### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
-
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF]({{ page.homepage.url }}/assets/dsldi.pdf)]
-[[slides]({{ page.homepage.url }}/assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
-
-### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
-
-**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
-
-## Patent
-
-Titus Barik, Gustavo Soares, Piyush Arora, Peter Groenewegen, Sumit Gulwani, Ameya Ketkar, Vu Le, **Wode Ni**, David Pugh, Arjun Radhakrishna, Ivan Radicek, Ashish Tiwari, Mark Wilson-Thomas. Edit automation using an anchor target list. *US Patent 2024/11941372 B2 2024*.
-
-Gustavo Soares, Piyush Arora, Titus Barik, Peter Groenewegen, Sumit Gulwani, Ameya Ketkar, Vu Le, **Wode Ni**, David Pugh, Arjun Radhakrishna, Ivan Radicek, Ashish Tiwari, Mark Wilson-Thomas. Edit automation using a temporal edit pattern.  *US Patent 2024/11875136 B2	2024*.
+- A **seasoned technical writer** with over 10 years of experience, skilled in creating documentation across various technical domains.
+- A **passionate technical writer**, enjoying exploring programming languages and experimenting with new applications, driven by innate curiosity.
+- An **effective communicator**, actively engaging with SMEs to gather the necessary information to create accurate and comprehensive documentation.
 
 ## Experience
-### **Apple** `2022.5 - 2022.9`
 
-_Research Intern - Machine Intelligence_<br>
+### ByteDance `Sept 2021 - Present`
+_Technical writer_
 
-At [Apple AI/ML](https://machinelearning.apple.com/), I worked on prototypes and features to improve the developer experience. Shipped [improved Swift code completion](https://developer.apple.com/documentation/xcode-release-notes/xcode-14_3-release-notes#Source-Editor) in Xcode and designed an syntactic code search algorithm published at PLDI'24.
+- **Technical documentation development**
+Develop and maintain technical documentation for the BytePlus RTC service, encompassing developer guides, API references, and quick start guides.
+- **User satisfaction assessment**
+Conduct user satisfaction surveys to evaluate and enhance the effectiveness of the technical documentation.
+- **Dashboard development for insights**
+Designed and implemented a dashboard to analyze user behavior, leveraging insights to continuously improve documentation.
+- **Technical community management**
+Manage and engage the technical community around the product, encouraging contributions to the documentation and fostering a collaborative environment.
+- **In-house tool development**
+Continuously contribute to the in-house tool project, applying expertise in Python and AIGC tools to streamline processes.
+- **Interaction architecture and design**
+Play an active role in the interaction architecture and interface design of the RTC console, enhancing user experience and usability.
 
-### **Microsoft Research** `2020.5 - 2020.8`
+### Shanghai Sansi electronic engineering ltd `Jan 2017 - Sept 2021`
 
-_Research Intern_<br>
-Worked with the [PROSE](https://www.microsoft.com/en-us/research/group/prose/) team (mentored by [Titus Barik](https://www.barik.net/)) on improving developer productivity in Visual Studio Code. I interviewed developers to elicit their needs for code transformation tools in editors. Inspired by the empirical data and relevant work in program synthesis, I designed **reCode**, an interaction model for rapidly performing complex code transformation using the familiar find-and-replace experience, published at UIST'21.
+_Technical writer_
 
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
+- **Technical Documentation Development**
+Developed and maintained comprehensive bi-lingual technical documentation for the LED wall project, including construction guides, implementation manuals, operation manuals, and additional supporting materials.
+- **Go-to-Market (GTM) Material Creation**
+Designed and developed Go-to-Market (GTM) materials for products, encompassing one-pagers and detailed product specification sheets to effectively communicate product features and benefits to the target audience.
+- **In-house tool development**
+Streamline the content developing processes by applying the diataxis approach.
 
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
+### Pactera technology international ltd `Sept 2015 - Jan 2017`
 
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
+_Technical writer_
 
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
+- **Technical Documentation for Intel Server Products**
+Developed and maintained illustrated guides and technical sheets for Intel server products.
+- **User Experience Verification**
+Verified the user experience on installation through iterative testing, ensuring a seamless and intuitive process for end-users.
 
-## Teaching
+### Suzhou keda technology co. ltd `July 2010 - Sept 2015`
 
-Teaching Assistant, **Foundations of Software Engineering (17-313)** `CMU, 2022` <br>
-Teaching Assistant, **Crafting Software (17-450/17-950)** `CMU, 2022` <br>
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
+_Technical writer_
 
-## Mentoring
+**Technical Documentation**
+Developed and maintained a suite of illustrated guides for video surveillance devices, including detailed installation guides, comprehensive operation manuals, and clear product specification sheets.
+### China Unicom `July 2009 - July 2010`
 
-[Rijul Jain](https://rijuljain.com/) (Williams College) `CMU, 2023 - Now` <br>
-[Yiliang "Leo" Liang](https://www.linkedin.com/in/yiliang-liang-a3631a138/) (University of Michigan) `CMU, 2022 - 2023` <br>
-[Hwei-Shin Harriman](https://hsharriman.github.io/) (Olin College of Engineering) `CMU, 2021 - 2022` <br>
-[Helena Yang](https://heleaf.me/) (CMU) `CMU, 2021` <br>
-[Max Krieger](https://a9.io/) (CMU) `CMU, 2018 - 2021` <br>
-[Courtney Miller](https://courtney-e-miller.github.io/) (New College of Florida) `CMU, 2019` <br>
-[Anael Kuperwajs Cohen](https://anaelkuperwajs.github.io/) (Macalester College) `CMU, 2019` <br>
+_CDMA network maintainer_
 
-## Honors & Awards
+**Network Quality Reporting and Optimization**
+- Delivered monthly reports on CDMA network quality, providing detailed analysis and insights to inform strategic decision-making.
+- Performed optimization initiatives aimed at improving the _CDMA network quality on a quarterly basis, ensuring continuous enhancement of service performance and user satisfaction.
 
-CMU Open Source Office Fellowship, supported by the Alfred P. Sloan Foundation `CMU, 2023-2024` <br>
-CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
+## Education
 
-## Service
+### Nanjing University of Science and Technology `Sept 2005 - July 2009`
+```
+Bachelor of telecommunication engineering
+```
 
-S3D Department head search committee `CMU, 2024` <br>
-Sub-reviewer `OOPSLA'21, VL/HCC'21` <br>
-Reviewer `CHI'21, CHI'22, SIGGRAPH'22, UIST'23, CHI'24` <br>
-Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2023` <br>
+## Languages
+
+`Mandarin`, `English`, `Cantongnese`
+
+## Additional info.
+
+MBTI personality type: `ISTP`
 
 <!-- ### Footer
 
